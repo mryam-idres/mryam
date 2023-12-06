@@ -6,8 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./homework.component.css']
 })
 export class HomeworkComponent {
-  programmingLanguages = ['JavaScript', 'Python', 'Java', 'C++'];
-  experienceLevels = ['Beginner', 'Intermediate', 'Advanced'];
+  language = ['JavaScript', 'Python', 'Java', 'C++'];
+  levels = ['Beginner', 'Intermediate', 'Advanced'];
 
   textarea = '';
   submit = false;
